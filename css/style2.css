@@ -280,6 +280,7 @@
 .copyright{
     display: flex;
     align-items: center;
+    font-family:  Arial, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", "맑은 고딕", sans-serif;
     justify-content: center;
     color:white;   
 }
