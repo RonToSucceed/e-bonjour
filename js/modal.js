@@ -40,6 +40,7 @@ registerBtn.addEventListener("click", function (e) {
     firebase.auth().createUserWithEmailAndPassword(email.value, password.value)
     .then(() => {
         console.log("註冊成功");
+        modal.style.display = "none";
     })
     .catch((error) => {
         console.log(error.message);
