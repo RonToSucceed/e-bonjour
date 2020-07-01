@@ -60,9 +60,17 @@
   margin-top: -75px;
 }
 
+.bookpos:hover{
+	background-color:rgb(114, 197, 139);
+}
+
 .bookword{
   color:white;
   padding-top:15px;
+}
+
+.bookword:hover{
+	color:#666565;
 }
 
 html{
