@@ -47,3 +47,12 @@ registerBtn.addEventListener("click", function (e) {
         loginFail.innerHTML = "註冊失敗";
     });
 });
+/*
+firebase.auth().onAuthStateChanged(function(user){
+    if(user){
+        modal.innerHTML = "登出";
+    }
+    else{
+        modal.innerHTML = "會員註冊/登入";
+    }
+});*/
