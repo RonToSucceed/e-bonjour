@@ -1,4 +1,4 @@
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
@@ -56,6 +56,9 @@
                     </button>
                     <button type="submit" class="btn btn-primary btn-block" id="registerBtn">
                         註冊
+                    </button>
+                    <button type="submit" class="btn btn-primary btn-block" id="logOutBtn">
+                        登出
                     </button>
                 </div>
             </div>
@@ -411,7 +414,7 @@
             
             <div class="book">
                 <div class="bookpos">
-                    <a href=""><p class="bookword">預訂蛋糕</p></a>
+                    <p class="bookword" id="orderBtn">預訂蛋糕</p>
                 </div>
             </div>
     </div>
@@ -437,6 +440,8 @@
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-storage.js"></script>
     <script>
       var firebaseConfig = {
         apiKey: "AIzaSyBjuhnFu1zzWGRsSwKXh-bZiQzsRiUD18c",
@@ -452,6 +457,7 @@
       firebase.analytics();
     </script>
     <script src="js/modal.js"></script>
+    <script src="js/order.js"></script>
     
 	</body>
 </html>
