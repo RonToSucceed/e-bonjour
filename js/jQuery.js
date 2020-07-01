@@ -10369,21 +10369,204 @@ var num_jian = document.getElementById("num-jian");
 var input_num = document.getElementById("input-num");
 
 num_jia.onclick = function() {
-
 	input_num.value = parseInt(input_num.value) + 1;
 }
 
 num_jian.onclick = function() {
-
 	if(input_num.value <= 0) {
 		input_num.value = 0;
-	} else {
-
+	} 
+	else {
 		input_num.value = parseInt(input_num.value) - 1;
 	}
-
 }
 
+var num_jia2 = document.getElementById("num-jia2");
+var num_jian2 = document.getElementById("num-jian2");
+var input_num2 = document.getElementById("input-num2");
+
+num_jia2.onclick = function() {
+	input_num2.value = parseInt(input_num2.value) + 1;
+}
+
+num_jian2.onclick = function() {
+	if(input_num2.value <= 0) {
+		input_num2.value = 0;
+	} 
+	else {
+		input_num2.value = parseInt(input_num2.value) - 1;
+	}
+}
+
+var num_jia3 = document.getElementById("num-jia3");
+var num_jian3 = document.getElementById("num-jian3");
+var input_num3 = document.getElementById("input-num3");
+
+num_jia3.onclick = function() {
+	input_num3.value = parseInt(input_num3.value) + 1;
+}
+
+num_jian3.onclick = function() {
+	if(input_num3.value <= 0) {
+		input_num3.value = 0;
+	} 
+	else {
+		input_num3.value = parseInt(input_num3.value) - 1;
+	}
+}
+
+var num_jia4 = document.getElementById("num-jia4");
+var num_jian4 = document.getElementById("num-jian4");
+var input_num4 = document.getElementById("input-num4");
+
+num_jia4.onclick = function() {
+	input_num4.value = parseInt(input_num4.value) + 1;
+}
+
+num_jian4.onclick = function() {
+	if(input_num4.value <= 0) {
+		input_num4.value = 0;
+	} 
+	else {
+		input_num4.value = parseInt(input_num4.value) - 1;
+	}
+}
+
+var num_jia5 = document.getElementById("num-jia5");
+var num_jian5 = document.getElementById("num-jian5");
+var input_num5 = document.getElementById("input-num5");
+
+num_jia5.onclick = function() {
+	input_num5.value = parseInt(input_num5.value) + 1;
+}
+
+num_jian5.onclick = function() {
+	if(input_num5.value <= 0) {
+		input_num5.value = 0;
+	} 
+	else {
+		input_num5.value = parseInt(input_num5.value) - 1;
+	}
+}
+
+var num_jia6 = document.getElementById("num-jia6");
+var num_jian6 = document.getElementById("num-jian6");
+var input_num6 = document.getElementById("input-num6");
+
+num_jia6.onclick = function() {
+	input_num6.value = parseInt(input_num6.value) + 1;
+}
+
+num_jian6.onclick = function() {
+	if(input_num6.value <= 0) {
+		input_num6.value = 0;
+	} 
+	else {
+		input_num6.value = parseInt(input_num6.value) - 1;
+	}
+}
+
+var num_jia7 = document.getElementById("num-jia7");
+var num_jian7 = document.getElementById("num-jian7");
+var input_num7 = document.getElementById("input-num7");
+
+num_jia7.onclick = function() {
+	input_num7.value = parseInt(input_num7.value) + 1;
+}
+
+num_jian7.onclick = function() {
+	if(input_num7.value <= 0) {
+		input_num7.value = 0;
+	} 
+	else {
+		input_num7.value = parseInt(input_num7.value) - 1;
+	}
+}
+
+var num_jia8 = document.getElementById("num-jia8");
+var num_jian8 = document.getElementById("num-jian8");
+var input_num8 = document.getElementById("input-num8");
+
+num_jia8.onclick = function() {
+	input_num8.value = parseInt(input_num8.value) + 1;
+}
+
+num_jian8.onclick = function() {
+	if(input_num8.value <= 0) {
+		input_num8.value = 0;
+	} 
+	else {
+		input_num8.value = parseInt(input_num8.value) - 1;
+	}
+}
+
+var num_jia9 = document.getElementById("num-jia9");
+var num_jian9 = document.getElementById("num-jian9");
+var input_num9 = document.getElementById("input-num9");
+
+num_jia9.onclick = function() {
+	input_num9.value = parseInt(input_num9.value) + 1;
+}
+
+num_jian9.onclick = function() {
+	if(input_num9.value <= 0) {
+		input_num9.value = 0;
+	} 
+	else {
+		input_num9.value = parseInt(input_num9.value) - 1;
+	}
+}
+
+var num_jia10 = document.getElementById("num-jia10");
+var num_jian10 = document.getElementById("num-jian10");
+var input_num10 = document.getElementById("input-num10");
+
+num_jia10.onclick = function() {
+	input_num10.value = parseInt(input_num10.value) + 1;
+}
+
+num_jian10.onclick = function() {
+	if(input_num10.value <= 0) {
+		input_num10.value = 0;
+	} 
+	else {
+		input_num10.value = parseInt(input_num10.value) - 1;
+	}
+}
+
+var num_jia11 = document.getElementById("num-jia11");
+var num_jian11 = document.getElementById("num-jian11");
+var input_num11 = document.getElementById("input-num11");
+
+num_jia11.onclick = function() {
+	input_num11.value = parseInt(input_num11.value) + 1;
+}
+
+num_jian11.onclick = function() {
+	if(input_num11.value <= 0) {
+		input_num11.value = 0;
+	} 
+	else {
+		input_num11.value = parseInt(input_num11.value) - 1;
+	}
+}
+
+var num_jia12 = document.getElementById("num-jia12");
+var num_jian12 = document.getElementById("num-jian12");
+var input_num12 = document.getElementById("input-num12");
+
+num_jia12.onclick = function() {
+	input_num12.value = parseInt(input_num12.value) + 1;
+}
+
+num_jian12.onclick = function() {
+	if(input_num12.value <= 0) {
+		input_num12.value = 0;
+	} 
+	else {
+		input_num12.value = parseInt(input_num12.value) - 1;
+	}
+}
 /* 如果在和后台做数据交互时，出现点击加减按钮的值无法传到后台的情况，可以用下面这种方式
 $("body").on("click", ".num-jian", function(m) {
 	var obj = $(this).closest("ul").find(".input-num");
