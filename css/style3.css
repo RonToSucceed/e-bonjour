@@ -1,94 +1,3 @@
-
-.body{
-    margin: auto;
-    font-family: Arial, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", "맑은 고딕", sans-serif;
-  }
-
-.bg{
-    background-color: #f5f0db;
-  }
-
-.header{
-    position: fixed;
-    display: flex;
-    width: 100%;
-
-    height: 72px;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    background-size: cover;
-    background-color:#AD5A5A;
-    z-index: 10;
-    padding: 0.1%;
-  }
-
-.title{
-    width: 60%;
-  }
-
-.title_img{
-    width: 130%;
-    max-width: 270px;
-    margin-top: 1.5%;
-    margin-left: 15%;
-}
-
-  .header_right{
-    min-width: 20%;
-    display: flex;
-    flex-direction: column;
-
-    margin-left: 10%;
-}
-/*header field*/
-.header2{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    width: 100%;
-    height: 72px;
-    background-size: cover;
-    background-color:#AD5A5A;
-    z-index: 10;
-    padding: 0.1%;
-  }
-
-
-.nav{
-    margin-top: 8px;
-  }
-
-.nav_box{
-    margin-right: 200px;
-    padding: 0px;
-    display: flex;
-    width: 100%;
-    flex-direction: row;
-    border-radius: 3px;
-  }
-  .nav_item{
-    list-style: none;
-  }
-  .nav_item_link{
-    display: block;
-    text-decoration: none;
-    font-family: Arial, "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "Microsoft JhengHei", "맑은 고딕", sans-serif;
-    font-size: 16px;
-    font-weight: 500;
-    padding: 16px 20px;
-    letter-spacing: normal;
-    text-align: left;
-    color: #edf2c5;
-  }
-  .nav_item:hover{
-      background-color: firebrick;
-  }
-
 .starter{
     display: flex;
     flex-direction: column;
@@ -110,17 +19,17 @@
 
 .cakebox{
     background-color: white;
-    height: 450px;
     width:300px;
-    padding:15px;
+	padding:15px;
+	padding-bottom: 10px;
     margin-bottom: 30px;
+    box-shadow:2px 2px 4px gray;
 }
 
 .flex{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 .contenttext {
@@ -135,6 +44,7 @@
 
 .book{
     margin-top: 30px;
+    
     width:100%;
     text-align: center;
     display: flex;
@@ -142,30 +52,193 @@
     align-items: center;    
 }
 
-#footer{
-  background-color: #272727;
-  width: 100%;
-  height: 150px;
-  margin-top:100px;
+.bookpos{
+  width:100px;
+  background-color:darkcyan;
+  border-radius: 20px;
+  margin-bottom:50px;
+  margin-top: -75px;
 }
-.icon{
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  padding-top: 50px;
-  min-width:30px;
-  width: auto;
+
+.bookword{
+  color:white;
+  padding-top:15px;
 }
-.imgicon{
-  padding-left: 20px;
-  padding-right: 20px;
-  max-width: 30px;
-  max-height: 30px;
+
+html{
+	width: 100%;
 }
-.copyright{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color:white;   
+
+
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+	font-size: 16px;
+}
+
+.navbar-brand img {
+	height: 50px;
+}
+.nav-item{
+	margin-left:  10px;
+	margin-right: 10px;
+}
+.nav-item:hover{
+    background-color: #880000;
+}
+
+@media (min-width: 320px) {
+	.about img{
+		width: 290px;
+	}
+}
+
+@media (min-width: 768px) {
+/*nav選單*/
+	.navbar{
+		padding-left: 50px!important;
+		padding-right:50px!important; 
+	}
+}
+
+
+.banner {
+	margin-top: 76px;
+}
+.banner .container-fluid {
+	padding:0!important;
+}
+
+.bg {
+	background-color: #FFE6D9; 
+}
+
+
+.about img {
+	box-shadow:2px 2px 4px gray;
+	width: 100%;
+}
+.title {
+	font-size:20px;
+	font-weight: bold;
+}
+
+
+.title_line {
+	margin-bottom: 50px;
+	border-color:#ffffff;
+}
+
+.sales {
+	background-color: #FFE6D9;
+	padding-bottom:70px;
+}
+.sales .card {
+	background-color:white;
+	
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	display: flex;
+	align-items: center;
+	color: gray;
+}
+.sales img {
+	width: 95%;
+	margin-bottom:20px;
+}
+
+.sales img:hover {
+	opacity: 0.8;
+}
+
+.seperation{
+    width: 70%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 10%;
+}
+
+.button{
+    margin-top:50px;
+    width:150px;
+    height: 50px;
+    line-height:50px;
+	text-align: center;
+	color: gray;
+	box-shadow: inset 0 0 0 2px rgba(0,0,0,0.5);
+}
+.button:hover{
+	background-color: 	#FFECEC;
+	color: black;
+}
+
+
+.contact {
+	height: 750px;
+	padding-top: 100px;
+	background-image: url(../img/hp0.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top center;
+}
+
+.contact .title {
+	color:#ffffff;
+}
+
+.contact .form {
+	max-width: 600px;
+	margin:0 auto;
+	padding: 0 30px;
+	color:#ffffff;
+}
+
+.form input {
+	height: 40px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+.form textarea {
+	height: 200px;
+	width: 100%;
+	background-color: #ffffff;
+	border-radius: 5px;
+	border:0px;
+	padding: 12px;
+	resize: vertical;
+	color: #000000;
+	margin:7.5px 0;
+}
+
+input[type=submit] {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  width: 100px!important;
+  height: 48px;
+}
+
+input[type=submit]:hover {
+  background-color: #393939;
+}
+
+footer {
+	background-color: #272727;
+	padding:20px 5px; 
+	color: white;
+	font-weight: 700;
+}
+
+footer p {
+	line-height: 39px;
 }
