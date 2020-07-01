@@ -2,7 +2,9 @@
 <html lang="zh-TW">
   <head>
     <link rel="icon" href="./img/logo1.png" type="image/x-icon">
+    <link href="css/modal.css" rel="stylesheet" type="text/css">
     <link href="css/style2.css" rel=stylesheet type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/my-login.css">
     <meta charset="UTF-8">
 	  <!-- 手機版縮放 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" >
@@ -24,12 +26,48 @@
               <li class="nav-item"><a class="nav-link" href="index.html#section1">最新消息</a></li>
               <li class="nav-item"><a class="nav-link" href="about.html">關於我們</a></li>
               <li class="nav-item"><a class="nav-link" href="menu.html">精選商品</a></li>
-              <li class="nav-item"><a class="nav-link" href="">會員註冊/登入</a></li>
+              <li class="nav-item"><a class="nav-link" id="modalBtn">會員註冊/登入</a></li>
               <li class="nav-item"><a class="nav-link" href="https://www.facebook.com/bonjour1999/">聯繫我們</a></li>
             </ul>
           </div>
       </nav>
     </header>
+    <div id="myModal" class="modal">
+      <!-- Modal content -->
+          <div class="modal-content">
+              <div class="modal-header">
+                  <span class="close">&times;</span>
+                  <h2 class="modal-header-text"></h2>
+              </div>
+              <div class="modal-body">
+                  <div class="form-group">
+                      <label for="email">E-Mail Address</label>
+                      <input id="email" type="email" class="form-control" name="email" value="" required autofocus>
+                      <div class="invalid-feedback">
+                          Email is invalid
+                      </div>
+                  </div>
+                  <div class="form-group">
+                      <label for="password">Password</label>
+                      <input id="password" type="password" class="form-control" name="password" required data-eye>
+                      <div class="invalid-feedback">
+                          Password is required
+                      </div>
+                  </div>
+                  <div class="form-group m-0">
+                      <button type="submit" class="btn btn-primary btn-block" id="loginBtn">
+                          登入
+                      </button>
+                      <button type="submit" class="btn btn-primary btn-block" id="registerBtn">
+                          註冊
+                      </button>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                  <h3 id="loginFail"></h3>
+              </div>
+          </div>
+      </div>
     <div class="top_content">
       <div class="row">
         <div class="col-md-12">
@@ -114,7 +152,24 @@
         </div>
       </div>
     </footer>
-
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"></script>
+    <script>
+      var firebaseConfig = {
+        apiKey: "AIzaSyBjuhnFu1zzWGRsSwKXh-bZiQzsRiUD18c",
+        authDomain: "htmlfinal-e0d6e.firebaseapp.com",
+        databaseURL: "https://htmlfinal-e0d6e.firebaseio.com",
+        projectId: "htmlfinal-e0d6e",
+        storageBucket: "htmlfinal-e0d6e.appspot.com",
+        messagingSenderId: "53668605105",
+        appId: "1:53668605105:web:a0e168d76ad9e73666c690",
+        measurementId: "G-LHK89WKWWZ"
+      };
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="js/modal.js"></script>
     <script src="js/jQuery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/all.js"></script>
