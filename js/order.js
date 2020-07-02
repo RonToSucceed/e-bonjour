@@ -20,18 +20,18 @@ orderBtn.addEventListener("click", function(e){
         usersRef.add({
             "email": user.email,
             "cake": {
-                "cake1": inputNum1.value,
-                "cake2": inputNum2.value,
-                "cake3": inputNum3.value,
-                "cake4": inputNum4.value,
-                "cake5": inputNum5.value,
-                "cake6": inputNum6.value,
-                "cake7": inputNum7.value,
-                "cake8": inputNum8.value,
-                "cake9": inputNum9.value,
-                "cake10": inputNum10.value,
-                "cake11": inputNum11.value,
-                "cake12": inputNum12.value
+                "cake1": Number(inputNum1.value),
+                "cake2": Number(inputNum2.value),
+                "cake3": Number(inputNum3.value),
+                "cake4": Number(inputNum4.value),
+                "cake5": Number(inputNum5.value),
+                "cake6": Number(inputNum6.value),
+                "cake7": Number(inputNum7.value),
+                "cake8": Number(inputNum8.value),
+                "cake9": Number(inputNum9.value),
+                "cake10": Number(inputNum10.value),
+                "cake11": Number(inputNum11.value),
+                "cake12": Number(inputNum12.value)
             }
         })
         alert('預定成功!');
